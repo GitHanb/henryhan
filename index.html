@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Henry Han - Front End Developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- for sidebar -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- for icons -->
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <!-- external css file-->
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#about">About Myself</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+            <div class="jumbotron">
+                <div class="container text-center">
+                    <h1>My Portfolio</h1>
+                    <p>Front End Development / Work ethic / Detail orientation / Motivation ...</p>
+                </div>
+            </div>
+    
+            <div class="container-fluid" id="about">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>About Myself</h2>
+                        <p>My name is Henry Han. I was born and raised in China, and I immigrated to Canada after I obtained my Bachelor's dgree in 2013.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fas fa-address-card logo"></i>
+                    </div>
+                </div>  
+            </div>
+    
+            <div class="container-fluid bg-grey" id="education">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fas fa-university logo"></i>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>2016 - 2018</li>
+                            <li>2014 - 2016</li>
+                            <li>2009 - 2013</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="container-fluid" id="skills">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fas fa-check-double logo"></i>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="container-fluid bg-grey" id="experience">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fas fa-history logo"></i>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Experience</h2>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-fluid" id="contact">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Contact</h2><br>
+                        <ul style="list-style-type: none;">
+                            <li><i class="fas fa-phone"></i> 1.587.436.0922</li><br>
+                            <li><i class="fas fa-envelope"></i> hanzhongliu1990@gmail.com</li><br>
+                            <li><i class="fas fa-location-arrow"></i> Burnaby, British Columbia, Canada</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fas fa-address-book logo"></i>
+                    </div>
+                </div>
+    
+            </div>
+
+          </div>
+
+        
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+    </body>
+</html>
