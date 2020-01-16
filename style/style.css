@@ -9,7 +9,7 @@ body {
 }
 
 .container-fluid {
-    padding: 60px 80px;
+    padding: 60px 100px;
 }
 
 .bg-grey {
@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    font-size: 200px;
+    font-size: 160px;
     color: cadetblue;
 }
 
