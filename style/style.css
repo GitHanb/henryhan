@@ -1,54 +1,84 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
 .jumbotron {
-    background-color: midnightblue;
-    color: white;
-    padding: 100px 25px;
+  background-color: midnightblue;
+  color: white;
+  padding: 60px 25px;
+  font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
-    padding: 60px 100px;
+  padding: 60px 100px;
 }
 
 .bg-grey {
-    background-color: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 .logo {
-    font-size: 160px;
-    color: midnightblue;
+  font-size: 160px;
+  color: midnightblue;
+}
+
+img {
+  width: 50%;
 }
 
 @media sceen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
 }
 
 ul {
-    padding: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .navbar {
-    margin-bottom: 0;
-    background-color: midnightblue;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-  }
-  
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: midnightblue !important;
-    background-color: #fff !important;
-  }
-  
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  }
+  margin-bottom: 0;
+  background-color: midnightblue;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: midnightblue !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
