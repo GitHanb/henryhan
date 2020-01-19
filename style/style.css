@@ -24,6 +24,10 @@ body {
   color: midnightblue;
 }
 
+.social {
+  font-size: 36px;
+}
+
 img {
   width: 50%;
 }
